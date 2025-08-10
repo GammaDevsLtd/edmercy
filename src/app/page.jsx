@@ -6,7 +6,7 @@ import { FaGraduationCap, FaTools, FaBriefcase, FaHandsHelping } from "react-ico
 
 export default function Home(){
   return (
-    <div>
+    <div className={styles.page}>
   <section className={styles.hero}>
       <div className={styles.heroContent}>
         <h1>EDMERCY Foundation</h1>
