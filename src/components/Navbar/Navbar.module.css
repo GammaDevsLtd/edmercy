@@ -1,0 +1,161 @@
+/* components/Navbar.module.css */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700; /* Bolder font weight */
+  font-size: 1.1rem; /* Slightly larger */
+  position: relative;
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: #2e8b57; /* Green */
+}
+
+/* Add underline effect on hover */
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #2e8b57;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.donateBtn {
+  background: #1e6ea7; /* Blue */
+  color: white!important;
+  padding: 0.7rem 1.8rem; /* Slightly larger */
+  border-radius: 30px; /* More rounded */
+  transition: all 0.3s ease;
+  font-weight: 700; /* Bolder */
+  font-size: 1.1rem; /* Slightly larger */
+  box-shadow: 0 4px 8px rgba(30, 110, 167, 0.3); /* Add shadow */
+}
+
+.donateBtn:hover {
+  background: #2a7fbf;
+  transform: translateY(-2px); /* Lift effect */
+  box-shadow: 0 6px 12px rgba(30, 110, 167, 0.4);
+}
+
+.mobileMenu {
+  display: none;
+  font-size: 1.8rem; /* Larger icon */
+  cursor: pointer;
+  z-index: 1001;
+  color: #1e6ea7;
+  font-weight: bold;
+}
+
+/* Mobile Navigation */
+.mobileNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.95);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+  width: 100%;
+}
+
+.mobileNavContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.mobileNavLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mobileNavLink:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #2e8b57;
+}
+
+.mobileDonateBtn {
+  background: #1e6ea7;
+  color: white!important;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(30, 110, 167, 0.3);
+}
+
+.mobileDonateBtn:hover {
+  background: #2a7fbf;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .mobileMenu {
+    display: block;
+  }
+  
+  .navLinks {
+    display: none;
+  }
+}
