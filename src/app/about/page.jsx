@@ -64,7 +64,7 @@ export default function About() {
               </div>
             </div>
             <div className={styles.historyImage}>
-              <img src="/images/about-history.jpg" alt="EDMERCY Foundation History" />
+              <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="EDMERCY Foundation History" />
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function About() {
           <div className={styles.teamGrid}>
             <div className={styles.teamMember}>
               <div className={styles.memberImage}>
-                <img src="/images/chairman.jpg" alt="Ogbujah Columbus N." />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Ogbujah Columbus N." />
               </div>
               <h3>Ogbujah Columbus N.</h3>
               <p className={styles.memberRole}>Chairman</p>
@@ -124,7 +124,7 @@ export default function About() {
             </div>
             <div className={styles.teamMember}>
               <div className={styles.memberImage}>
-                <img src="/images/secretary.jpg" alt="Nkama Nympha Uchenna" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Nkama Nympha Uchenna" />
               </div>
               <h3>Nkama Nympha Uchenna</h3>
               <p className={styles.memberRole}>Secretary</p>
@@ -132,7 +132,7 @@ export default function About() {
             </div>
             <div className={styles.teamMember}>
               <div className={styles.memberImage}>
-                <img src="/images/member1.jpg" alt="Ogbujah Stanley Ifeanyi" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Ogbujah Stanley Ifeanyi" />
               </div>
               <h3>Ogbujah Stanley Ifeanyi</h3>
               <p className={styles.memberRole}>Trustee</p>
@@ -140,7 +140,7 @@ export default function About() {
             </div>
             <div className={styles.teamMember}>
               <div className={styles.memberImage}>
-                <img src="/images/member2.jpg" alt="Okwarah Henry Uchechukwu" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Okwarah Henry Uchechukwu" />
               </div>
               <h3>Okwarah Henry Uchechukwu</h3>
               <p className={styles.memberRole}>Trustee</p>
@@ -148,7 +148,7 @@ export default function About() {
             </div>
             <div className={styles.teamMember}>
               <div className={styles.memberImage}>
-                <img src="/images/member3.jpg" alt="Okohue Jude Ehiabhi" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Okohue Jude Ehiabhi" />
               </div>
               <h3>Okohue Jude Ehiabhi</h3>
               <p className={styles.memberRole}>Trustee</p>

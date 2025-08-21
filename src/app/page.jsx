@@ -26,7 +26,7 @@ export default function Home() {
             <div className={styles.floatingElement2}></div>
             <div className={styles.floatingElement3}></div>
             <div className={styles.heroImage}>
-              <img src="/images/hero-visual.png" alt="Community Empowerment" />
+              <img src="https://images.unsplash.com/photo-1710770563074-6d9cc0d3e338?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHRlY2glMjB0cmFpbmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Community Empowerment" />
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <div className={styles.impactVisual}>
               <div className={styles.impactImage}>
-                <img src="/images/impact-visual.jpg" alt="Our Impact" />
+                <img src="https://images.unsplash.com/photo-1624154670578-42532d763bd3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHRlY2glMjB0cmFpbmluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Our Impact" />
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Home() {
                 <p className={styles.p}>"Thanks to EDMERCY's scholarship, I'm now studying medicine at UNN. You've changed my life forever and given me hope for a brighter future."</p>
                 <div className={styles.author}>
                   <div className={styles.authorImage}>
-                    <img src="/images/testimonial1.jpg" alt="Chidinma O." />
+                    <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Chidinma O." />
                   </div>
                   <div className={styles.authorInfo}>
                     <strong>Chidinma O.</strong>
@@ -176,7 +176,7 @@ export default function Home() {
                 <p className={styles.p}>"The tailoring skills I learned enabled me to start my own business and support my family. EDMERCY didn't just teach me a skill, they gave me dignity."</p>
                 <div className={styles.author}>
                   <div className={styles.authorImage}>
-                    <img src="/images/testimonial2.jpg" alt="Aisha M." />
+                    <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Aisha M." />
                   </div>
                   <div className={styles.authorInfo}>
                     <strong>Aisha M.</strong>

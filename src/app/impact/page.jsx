@@ -152,7 +152,7 @@ export default function Impact() {
           <div className={styles.storiesGrid}>
             <div className={styles.storyCard}>
               <div className={styles.storyImage}>
-                <img src="/images/success-1.jpg" alt="Chidinma's Success Story" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Chidinma's Success Story" />
               </div>
               <div className={styles.storyContent}>
                 <h3>From Student to Doctor</h3>
@@ -165,7 +165,7 @@ export default function Impact() {
             </div>
             <div className={styles.storyCard}>
               <div className={styles.storyImage}>
-                <img src="/images/success-2.jpg" alt="Aisha's Success Story" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Aisha's Success Story" />
               </div>
               <div className={styles.storyContent}>
                 <h3>Fashion Entrepreneur</h3>
@@ -178,7 +178,7 @@ export default function Impact() {
             </div>
             <div className={styles.storyCard}>
               <div className={styles.storyImage}>
-                <img src="/images/success-3.jpg" alt="Emeka's Success Story" />
+                <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Emeka's Success Story" />
               </div>
               <div className={styles.storyContent}>
                 <h3>Tech Startup Founder</h3>
@@ -285,7 +285,7 @@ export default function Impact() {
                 <p>EDMERCY Foundation didn't just pay my school fees; they believed in me when no one else did. Today, I'm the first person in my family to attend university.</p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>
-                    <img src="/images/testimonial-1.jpg" alt="Michael T." />
+                    <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Michael T." />
                   </div>
                   <div className={styles.authorInfo}>
                     <h4>Michael T.</h4>
@@ -300,7 +300,7 @@ export default function Impact() {
                 <p>The skills I learned in the tailoring program changed my life. I went from struggling to feed my children to owning a business that employs others.</p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>
-                    <img src="/images/testimonial-2.jpg" alt="Grace O." />
+                    <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Grace O." />
                   </div>
                   <div className={styles.authorInfo}>
                     <h4>Grace O.</h4>
@@ -315,7 +315,7 @@ export default function Impact() {
                 <p>EDMERCY's business mentorship program gave me the confidence and knowledge to expand my grocery store. My profits have increased by 200% in just one year.</p>
                 <div className={styles.testimonialAuthor}>
                   <div className={styles.authorImage}>
-                    <img src="/images/testimonial-3.jpg" alt="Samuel K." />
+                    <img src="https://images.unsplash.com/photo-1631006527504-c850e0967aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxlbXB0eSUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D" alt="Samuel K." />
                   </div>
                   <div className={styles.authorInfo}>
                     <h4>Samuel K.</h4>
