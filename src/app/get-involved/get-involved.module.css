@@ -1,0 +1,593 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1e6ea7 0%, #2e8b57 100%);
+  color: white;
+  padding: 8rem 0 6rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroContent h1 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.heroContent p {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.waveDivider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.waveDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 70px;
+}
+
+.shapeFill {
+  fill: #FFFFFF;
+}
+
+/* Ways to Get Involved */
+.ways {
+  padding: 6rem 0;
+  background: #f8f9fa;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #1e6ea7, #2e8b57);
+  border-radius: 2px;
+}
+
+.sectionSubtitle {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.waysGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+.wayCard {
+  background: white;
+  border-radius: 15px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.wayCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(135deg, #1e6ea7, #2e8b57);
+  opacity: 0.05;
+  transition: height 0.5s ease;
+  z-index: 0;
+}
+
+.wayCard:hover::before {
+  height: 100%;
+}
+
+.wayCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.wayIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: rgba(30, 110, 167, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #1e6ea7;
+  position: relative;
+  z-index: 1;
+}
+
+.wayCard h3 {
+  font-family: var(--font-poppins), sans-serif;
+  margin-bottom: 1.2rem;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.wayCard p {
+  font-family: var(--font-inter), sans-serif;
+  color: #666;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+.wayActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.primaryBtn {
+  background: linear-gradient(135deg, #1e6ea7, #2a7fbf);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(30, 110, 167, 0.3);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(30, 110, 167, 0.4);
+}
+
+.secondaryLink {
+  color: #1e6ea7;
+  text-decoration: none;
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.secondaryLink:hover {
+  color: #2e8b57;
+}
+
+/* Donation Options */
+.donation {
+  padding: 6rem 0;
+  background: white;
+}
+
+.donationGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+}
+
+.donationOption {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.donationOption:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.donationOption h3 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.donationOption p {
+  font-family: var(--font-inter), sans-serif;
+  color: #666;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+}
+
+.amountOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.amountBtn {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #1e6ea7;
+  background: transparent;
+  border-radius: 30px;
+  color: #1e6ea7;
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.amountBtn:hover {
+  background: #1e6ea7;
+  color: white;
+}
+
+.programOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.programOptions label {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-family: var(--font-inter), sans-serif;
+  color: #555;
+  cursor: pointer;
+}
+
+.programOptions input[type="radio"] {
+  accent-color: #1e6ea7;
+}
+
+/* Volunteer Opportunities */
+.volunteer {
+  padding: 6rem 0;
+  background: #f8f9fa;
+}
+
+.volunteerGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.opportunity {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.opportunity:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.opportunity h3 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.opportunity p {
+  font-family: var(--font-inter), sans-serif;
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.opportunityMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.opportunityMeta span {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.volunteerCta {
+  text-align: center;
+}
+
+/* Partnership Options */
+.partnership {
+  padding: 6rem 0;
+  background: white;
+}
+
+.partnershipGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.partnershipOption {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.partnershipOption:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.partnershipOption h3 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.partnershipOption p {
+  font-family: var(--font-inter), sans-serif;
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.partnershipOption ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.partnershipOption li {
+  font-family: var(--font-inter), sans-serif;
+  color: #555;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.partnershipCta {
+  text-align: center;
+}
+
+/* Impact Section */
+.impact {
+  padding: 6rem 0;
+  background: #f8f9fa;
+}
+
+.impactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.impactItem {
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.impactItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.impactItem h3 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 1.8rem;
+  color: #1e6ea7;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.impactItem p {
+  font-family: var(--font-inter), sans-serif;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #1e6ea7 0%, #2e8b57 100%);
+  color: white;
+  text-align: center;
+}
+
+.ctaContent h2 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ctaContent p {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.secondaryBtn:hover {
+  background: white;
+  color: #1e6ea7;
+  transform: translateY(-3px);
+}
+
+.tertiaryBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tertiaryBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Media Queries */
+@media (max-width: 968px) {
+  .heroContent h1 {
+    font-size: 2.5rem;
+  }
+  
+  .waysGrid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 6rem 0 4rem;
+    margin-top: 70px;
+  }
+  
+  .heroContent h1 {
+    font-size: 2.2rem;
+  }
+  
+  .waysGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .donationGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .volunteerGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .partnershipGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .impactGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .heroContent h1 {
+    font-size: 1.8rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .wayActions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .amountOptions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .impactGrid {
+    grid-template-columns: 1fr;
+  }
+}
